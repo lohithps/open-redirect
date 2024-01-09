@@ -1,0 +1,28 @@
+Open redirect examples
+https://example.com/login?redirect=https://example.com/dashboard
+https://example.com/login?redir=https://example.com/dashboard
+https://example.com/login?next=https://example.com/dashboard
+https://example.com/login?next=/dashboard
+
+look for status code 3XX, codes like 301 , 302.
+%3D => =
+%2F => /
+
+some open-redirect methods
+inurl:redir site:example.com
+inurl:redirect site:example.com
+inurl:redirecturi site:example.com
+inurl:redirect_uri site:example.com
+inurl:redirecturl site:example.com
+inurl:redirect_uri site:example.com
+inurl:return site:example.com
+inurl:returnurl site:example.com
+inurl:relaystate site:example.com
+inurl:forward site:example.com
+inurl:forwardurl site:example.com
+inurl:forward_url site:example.com
+inurl:url site:example.com
+inurl:uri site:example.com
+inurl:dest site:example.com
+inurl:destination site:example.com
+inurl:next site:example.com
